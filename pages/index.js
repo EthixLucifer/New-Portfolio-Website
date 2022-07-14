@@ -3,7 +3,7 @@ import NextLink from 'next/link';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { BioSection, ExperienceContainer, PositionName, ExperienceYear, BioYear, BioContainer, ExperienceDescription, CompanyName } from '../components/bio';
+import { BioSection, ExperienceContainer, PositionName, ExperienceYear, BioYear, BioContainer, ExperienceDescription, CompanyName, CompanyContainer } from '../components/bio';
 
 
 const Page = () => {
@@ -83,15 +83,40 @@ const Page = () => {
 
                     <ExperienceYear>06/2021 - 11/2021</ExperienceYear>
 
-                    <PositionName>
-                        Technical Content Creator Intern
-                        
-                        <CompanyName> <a href="https://techdecodetutorials.com/author/rohit/" target="_blank"> (TechDecode Tutorials)</a>
+                        <CompanyName>
+                          <a href='https://techdecodetutorials.com/author/rohit/' target='_blank'>  TechDecode Tutorials</a>
                         </CompanyName>
 
+                    <PositionName>
+                        Technical Content Creator Intern
+                    </PositionName>
+                    
+                </ExperienceContainer>
+                <ExperienceContainer>
+
+                    <ExperienceYear>11/2021 - 03/2022</ExperienceYear>
+
+                        <CompanyName>
+                          <a href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics Pvt Ltd</a>
+                        </CompanyName>
+
+                    <PositionName>
+                        Technical Content Writer Intern
                     </PositionName>
 
-                   
+                </ExperienceContainer>
+                <ExperienceContainer>
+
+                    <ExperienceYear>04/2022 - Present</ExperienceYear>
+
+                        <CompanyName>
+                          <a href='https://www.toshinnovations.com/' target='_blank'>  Tosh Innovations </a>
+                        </CompanyName>
+
+                    <PositionName>
+                        Blockchain Intern
+                    </PositionName>
+
                 </ExperienceContainer>
             </Section>
         </Container>
