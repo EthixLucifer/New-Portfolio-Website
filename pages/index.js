@@ -1,17 +1,22 @@
-import { Container, Box, Button, Heading, Image, useColorModeValue, Link } from '@chakra-ui/react';
+import { Container, Box, Button, Heading, Image, useColorModeValue, Link, Grid, GridItem } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons';
-import { BioSection, ExperienceContainer, PositionName, ExperienceYear, BioYear, BioContainer, ExperienceDescription, CompanyName, CompanyContainer } from '../components/bio';
+import Layout from '../components/layout/article';
+import { BioSection, ExperienceContainer, PositionName, ExperienceYear, BioYear, BioContainer, CompanyName } from '../components/bio';
 
 
 const Page = () => {
     return (
+        <Layout>
 
-        <Container>
+        
+
+        <Container fontFamily={"Ubuntu"}>
+
             {/* {*pl={20}*} padding to the left side of the name */}
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontStyle="Open Sans">
+            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontFamily="Cormorant SC">
                 Hi, I'm Blockchain Developer & a CyberSecurity Geek
             </Box>
 
@@ -21,7 +26,9 @@ const Page = () => {
                     >
                         Rohit Jambhulkar
                     </Heading>
-                    <p> Pen Tester, Smart Contract Developer, Tech Content Creator/Writer</p>
+                    <p
+                    // fontFamily="Cormorant SC" fontWeight={"bold"} fontSize={"110%"}
+                    > Pen Tester, Smart Contract Developer, Tech Content Creator</p>
                 </Box>
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align='center' >
                     <Image borderColor="whiteAlpha.900" borderWidth={3} borderStyle='solid' maxWidth="150px" display="inline-block" borderRadius='full' src="/images/profile-pic (1).png" alt="Ethix Jambhulkar profile Image" />
@@ -58,47 +65,47 @@ const Page = () => {
                 </BioContainer>
 
                 <BioContainer>
-                    <BioYear>2017/2018</BioYear>
+                    <BioYear>2017-2018</BioYear>
                     <BioSection>
                         Finished Xth grade from Maharashtra SSC Board
                     </BioSection>
                 </BioContainer>
                 <BioContainer>
-                    <BioYear>2018/2022</BioYear>
+                    <BioYear>2018-2022</BioYear>
                     <BioSection>
-                        Finished Diploma in Information Technology from Government Polytechnic Gondia
+                        Finished Diploma in Information Technology from "Government Polytechnic Gondia"
                     </BioSection>
                 </BioContainer>
 
 
-                {/* Experience Section */}
             </Section>
+            {/* Experience Section */}
 
             <Section delay={0.7}>
                 <Heading as='h3' variant='section-title'>
                     Experience
                 </Heading>
 
-                <ExperienceContainer>
 
+                <ExperienceContainer>
                     <ExperienceYear>06/2021 - 11/2021</ExperienceYear>
 
-                        <CompanyName>
-                          <a href='https://techdecodetutorials.com/author/rohit/' target='_blank'>  TechDecode Tutorials</a>
-                        </CompanyName>
+                    <CompanyName>
+                        <Link href='https://techdecodetutorials.com/author/rohit/' target='_blank'>  TechDecode Tutorials</Link>
+                    </CompanyName>
 
                     <PositionName>
                         Technical Content Creator Intern
                     </PositionName>
-                    
+
                 </ExperienceContainer>
                 <ExperienceContainer>
 
                     <ExperienceYear>11/2021 - 03/2022</ExperienceYear>
 
-                        <CompanyName>
-                          <a href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics Pvt Ltd</a>
-                        </CompanyName>
+                    <CompanyName>
+                        <Link href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics Pvt Ltd</Link>
+                    </CompanyName>
 
                     <PositionName>
                         Technical Content Writer Intern
@@ -109,17 +116,20 @@ const Page = () => {
 
                     <ExperienceYear>04/2022 - Present</ExperienceYear>
 
-                        <CompanyName>
-                          <a href='https://www.toshinnovations.com/' target='_blank'>  Tosh Innovations </a>
-                        </CompanyName>
+                    <CompanyName>
+                        <Link href='https://www.toshinnovations.com/' target='_blank'>  Tosh Innovations </Link>
+                    </CompanyName>
 
                     <PositionName>
                         Blockchain Intern
                     </PositionName>
 
                 </ExperienceContainer>
+
             </Section>
+            
         </Container>
+        </Layout>
     );
 }
 
