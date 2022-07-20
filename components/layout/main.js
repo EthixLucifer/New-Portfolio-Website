@@ -13,10 +13,10 @@ const Main = ({ children, router }) => {
             <Navbar path={router.asPath} />
 
             {/* Determining the size of Container */}
-            <Container maxW="container.lg" pt={"5em"}  >
-                <NoSsr>
-                    <AnimeChar />
-                </NoSsr>
+            <Container maxW="container.lg" pt={"2em"}  >
+                
+                  
+                
                 {children}
             </Container>
         </Box>
