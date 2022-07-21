@@ -57,9 +57,9 @@ const Navbar = props => {
                         Projects
                     </LinkItem>
 
-                    <LinkItem href="/articles" path={path} >
+                    {/* <LinkItem href="/articles" path={path} >
                         Articles
-                    </LinkItem>
+                    </LinkItem> */}
                 </Stack>
 
                 
@@ -86,11 +86,11 @@ const Navbar = props => {
                                         Projects
                                     </MenuItem>
                                 </NextLink>
-                                <NextLink href="/posts" passHref>
+                                {/* <NextLink href="/articles" passHref>
                                     <MenuItem as={Link}>
                                         Articles
                                     </MenuItem>
-                                </NextLink>
+                                </NextLink> */}
 
                                 <MenuItem as={Link} href="https://github.com/EthixLucifer/New-Portfolio-Website">
                                     View SourceCode

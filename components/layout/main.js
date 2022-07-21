@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Navbar from "../navbar.js"
 import { Box, Container } from '@chakra-ui/react'
-import AnimeChar from '../anime'
-import NoSsr from '../no-ssr'
+
 const Main = ({ children, router }) => {
     return (
         <Box as="main" pb={5} >
