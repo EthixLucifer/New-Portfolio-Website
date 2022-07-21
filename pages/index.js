@@ -9,11 +9,12 @@ import { BioSection, ExperienceContainer, PositionName, ExperienceYear, BioYear,
 
 const Page = () => {
     return (
-        <Layout>
+        <Layout >
 
         
 
-        <Container fontFamily={"Ubuntu"}>
+            
+        <Container fontFamily={"Ubuntu"} >
 
             {/* {*pl={20}*} padding to the left side of the name */}
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontFamily="Cormorant SC">
