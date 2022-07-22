@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
 import Section from '../components/section';
 import { ProjectGridItem } from '../components/grid-item';
-import thumbEthxChain from "../public/images/thumbEthxChain.png";
+import thumbEthxChain from "../public/images/thumbEthxChain.PNG";
 import Layout from '../components/layout/article';
 
 const Projects = () => {
