@@ -19,7 +19,7 @@ padding:10px
 
 
 const Logo = () => {
-    const dragonImg = `/images/Dragon.png`
+    const dragonImg = `/images/dragon.png`
     // const dragonImg = `/images/drg1.png`
     return (
         <Link href="/">
