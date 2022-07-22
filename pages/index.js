@@ -20,7 +20,7 @@ const Page = () => {
 
                 {/* {*pl={20}*} padding to the left side of the name */}
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontFamily="Cormorant SC">
-                    Hi, I'm Blockchain Developer & a CyberSecurity Geek
+                    Hi, I&apos;m Blockchain Developer & a CyberSecurity Geek
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
@@ -76,7 +76,7 @@ const Page = () => {
                     <BioContainer>
                         <BioYear>2018-2022</BioYear>
                         <BioSection>
-                            Finished Diploma in Information Technology from "Government Polytechnic Gondia"
+                            Finished Diploma in Information Technology from &quot;Government Polytechnic Gondia&quot;
                         </BioSection>
                     </BioContainer>
 
