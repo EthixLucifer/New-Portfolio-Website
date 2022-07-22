@@ -4,7 +4,7 @@ import Section from "../components/section"
 import { GridItem } from "../components/grid-item"
 
 
-import thumbEthxChain from "../public/images/thumbEthxChain.png"
+// import thumbEthxChain from "../public/images/thumbEthxChain.PNG"
 
 const Articles = () => {
     <Layout title="Articles" >
