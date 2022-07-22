@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import { Box, Heading, Container, Text, Img, Divider, Button } from '@chakra-ui/react';
+import { Box, Container, Text, Img,  Button } from '@chakra-ui/react';
 
 const NotFound = () => {
     return (

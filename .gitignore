@@ -1,3 +1,6 @@
 node_modules
-public/images
+public/images/profile-pic (1).png
 .next
+dist
+.vercel
+.env
