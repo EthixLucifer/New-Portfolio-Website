@@ -157,7 +157,7 @@ const Page = () => {
 
                 <Section delay={0.9}>
                     <Heading as="h3" variant="section-title">
-                        Connect With Me
+                        Connect Via
                     </Heading>
 
                     <SimpleGrid columns={[2, 2, 2]} gap={6}>
