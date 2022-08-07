@@ -179,7 +179,7 @@ const Page = () => {
 
                         <List mt={5}>
                             <ListItem>
-                                <Link href="https://www.linkedin.com/in/ethixlucifer" target="_blank">
+                                <Link href="https://www.github.com/in/ethixlucifer" target="_blank">
 
                                     <Button variant="ghost" colorScheme="red"
                                         leftIcon={<Icon as={IoLogoGithub}
@@ -194,7 +194,7 @@ const Page = () => {
 
                         <List mt={5}>
                             <ListItem>
-                                <Link href="https://www.linkedin.com/in/ethixlucifer" target="_blank">
+                                <Link href="https://www.instagram.com/ethixlucifer" target="_blank">
 
                                     <Button variant="ghost" colorScheme="pink"
                                         leftIcon={<Icon as={IoLogoInstagram}
@@ -210,7 +210,7 @@ const Page = () => {
 
                         <List mt={5}>
                             <ListItem>
-                                <Link href="https://www.linkedin.com/in/ethixlucifer" target="_blank">
+                                <Link href="https://twitter.com/Ethixlucifer" target="_blank">
 
                                     <Button variant="ghost" colorScheme="twitter"
                                         leftIcon={<Icon as={IoLogoTwitter}
