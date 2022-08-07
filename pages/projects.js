@@ -2,6 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react';
 import Section from '../components/section';
 import { ProjectGridItem } from '../components/grid-item';
 import thumbEthxChain from "../public/images/thumbEthxChain.PNG";
+import firstportfolio_1 from "../public/images/firstportfolio_1.PNG";
 import Layout from '../components/layout/article';
 
 const Projects = () => {
@@ -17,13 +18,13 @@ const Projects = () => {
                 <Section>
                     <ProjectGridItem id="EthxChain" title="EthxChain"
                     thumbnail={thumbEthxChain}>
-                        EthxChain is a decentralized Crypto transfer platform where users can attach their transactions with GiF images, stored on Ethereum blockchain.
+                        A decentralized Crypto transfer platform deployed on Firebase
                     </ProjectGridItem>
                 </Section>
                 <Section>
-                    <ProjectGridItem id="EthxChain" title="EthxChain"
-                    thumbnail={thumbEthxChain}>
-                        EthxChain is a decentralized Crypto transfer platform where users can attach their transactions with GiF images, stored on Ethereum blockchain.
+                    <ProjectGridItem id="Firstportfolio" title="First Portfolio Website"
+                    thumbnail={firstportfolio_1}>
+                        Previous Portfolio Website Built using React.Js deployed on Firebase
                     </ProjectGridItem>
                 </Section>
             </SimpleGrid>
