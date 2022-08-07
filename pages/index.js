@@ -20,7 +20,7 @@ const Page = () => {
 
                 {/* {*pl={20}*} padding to the left side of the name */}
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontFamily="Cormorant SC">
-                    A Certified Blockchain & NFT Developer and a CyberSecurity Geek
+                    Certified Blockchain & NFT Developer and A CyberSecurity Geek
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
