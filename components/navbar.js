@@ -56,6 +56,9 @@ const Navbar = props => {
                     <LinkItem href="/projects" path={path} >
                         Projects
                     </LinkItem>
+                    <LinkItem href="/certificates" path={path} >
+                        Certificates
+                    </LinkItem>
 
                     {/* <LinkItem href="/articles" path={path} >
                         Articles
@@ -86,6 +89,11 @@ const Navbar = props => {
                                         Projects
                                     </MenuItem>
                                 </NextLink>
+                                <NextLink href="/certificates" passHref>
+                                    <MenuItem as={Link}>
+                                        Certificates
+                                    </MenuItem>
+                                </NextLink>
                                 {/* <NextLink href="/articles" passHref>
                                     <MenuItem as={Link}>
                                         Articles
@@ -93,7 +101,7 @@ const Navbar = props => {
                                 </NextLink> */}
 
                                 <MenuItem as={Link} href="https://github.com/EthixLucifer/New-Portfolio-Website">
-                                    View SourceCode
+                                    View This SourceCode
                                 </MenuItem>
 
                             </MenuList>
