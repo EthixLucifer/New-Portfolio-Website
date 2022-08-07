@@ -5,7 +5,7 @@ import Layout from '../components/layout/article';
 import thumbCBA from "../public/images/certificatedir/CBA.jpg";
 import thumbCISSP from "../public/images/certificatedir/CISSP.jpg";
 import thumbSmartContracts from "../public/images/certificatedir/courseraSmartContracts.jpg";
-import thumbEthicalHacking from "../public/images/certificatedir/EthicalHacking.jpg";
+import thumbEthicalHacking from "../public/images/certificatedir/Ethicalhacking.jpg";
 
 
 const Certificates = () => {
