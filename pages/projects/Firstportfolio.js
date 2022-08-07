@@ -16,15 +16,12 @@ const Project = () => {
                     A decentralized Dapp deployed on Ropsten testnet of the Ethereum blockchain, where senders can attach different Gif images to the transaction and store them on the blockchain.
                 </P>
                 <ProjectImage mt={55} src="/images/thumbEthxChain.PNG" alt="EthxChain" />
-                <ProjectImage mt={55} src="/images/EthxChain_2.PNG" alt="EthxChainImage_2" />
-                <ProjectImage mt={55} src="/images/EthxChain_3.PNG" alt="EthxChainImage_3" />
-
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
                         <Link href="https://ethxchain.tech" target="_blank">
-                            EthxChain <ExternalLinkIcon mx="2px" />
-                        </Link>
+                            EthxChain <ExternalLinkIcon mx="2px"/>
+                            </Link>
                     </ListItem>
 
                     <ListItem>
@@ -33,7 +30,7 @@ const Project = () => {
                     </ListItem>
 
                 </List>
-
+                
             </Container>
         </Layout>
     )
