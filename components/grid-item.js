@@ -32,9 +32,28 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
                 <Image src={thumbnail}
                     alt={"title"}
                     className={"grid-item-thumbnail"}
-                    // placeholder="blur"
-                     />
+                // placeholder="blur"
+                />
                 <LinkOverlay href={`/projects/${id}`}>
+                    <Text mt={2} fontSize={20}>
+                        {title}
+                    </Text>
+                </LinkOverlay>
+                <Text fontSize={14}>{children} </Text>
+            </LinkBox>
+        </NextLink>
+    </Box>
+)
+export const CertificateGridItem = ({ children, id, title, thumbnail }) => (
+    <Box w="100%" textAlign="center" >
+        <NextLink href={`/certificates/${id}`}>
+            <LinkBox cursor="pointer" >
+                <Image src={thumbnail}
+                    alt={"title"}
+                    className={"grid-item-thumbnail"}
+                // placeholder="blur"
+                />
+                <LinkOverlay href={`/certificates/${id}`}>
                     <Text mt={2} fontSize={20}>
                         {title}
                     </Text>
