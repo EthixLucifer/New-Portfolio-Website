@@ -13,7 +13,17 @@ const Project = () => {
                     EthxChain <Badge>2022</Badge>
                 </Title>
                 <P>
-                    A decentralized Dapp deployed on Ropsten testnet of the Ethereum blockchain, where senders can attach different Gif images to the transaction and store them on the blockchain.
+                    Ethxchain is a platform that allows users to send and receive ropsten ethers. When visiting the platform for the first time, ensure to connect your metamask wallet via ropsten testnet.
+                    
+                </P>
+
+                <P>
+                    Next, fill up the transaction form with receivers address, transfer amount. With every transaction you get to attach a gif image. So type the name of character, object or anything you want to represent the transaction with. 
+
+                </P>
+
+                <P>
+                    At last, add the transaction message and click on send Eth button.
                 </P>
                 <ProjectImage mt={55} src="/images/thumbEthxChain.PNG" alt="EthxChain" />
                 <ProjectImage mt={55} src="/images/Ethxchain_2.PNG" alt="EthxChainImage_2" />
@@ -30,6 +40,12 @@ const Project = () => {
                         <Meta>Github Repo</Meta>
                         <Link href="https://github.com/EthixLucifer/EthxChain" target="_blank">
                             EthxChain.Github<ExternalLinkIcon mx="2px" />
+                        </Link>
+                    </ListItem>
+                    <ListItem>
+                        <Meta>API</Meta>
+                        <Link href="https://developers.giphy.com/" target="_blank">
+                            Giphy Developers<ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
 
