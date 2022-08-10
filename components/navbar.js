@@ -12,9 +12,13 @@ const LinkItem = ({ href, path, children }) => {
     return (
         <NextLink href={href}>
             <Link
-                p={2}
-                bg={active ? 'red.400' : undefined}
-                color={active ? '#202023' : inactiveColor}>
+                p={1}
+                bg={active ? 'blue.50' : undefined}
+                alignItems="center"
+                color={active ? '#202023' : inactiveColor}
+                borderRadius={inactiveColor ? 0 : 0}
+                outlineColor={active ? "blue.200": undefined}
+            >
                 {children}
             </Link>
         </NextLink>
@@ -24,15 +28,15 @@ const LinkItem = ({ href, path, children }) => {
 const Navbar = props => {
     const { path } = props
     return (
-        <Box 
-        position="fixed"
+        <Box
+            position="fixed"
             as="nav"
             w="100%"
             bg={useColorModeValue('#ffffff', '#1A2238')}
 
             style={{ backdropFilter: 'blur(5px)' }}
             zIndex={2}
-            
+
 
             {...props}
         >
@@ -65,15 +69,15 @@ const Navbar = props => {
                     </LinkItem> */}
                 </Stack>
 
-                
-                <Box flex={1} 
-                align='right'
-                >
-                <ThemeToggleButton/>   
 
-                    
-                        
-                    
+                <Box flex={1}
+                    align='right'
+                >
+                    <ThemeToggleButton />
+
+
+
+
                     <Box ml={2} display={{ base: "inline-block", md: 'none' }}>
                         <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />

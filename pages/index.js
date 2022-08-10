@@ -86,7 +86,7 @@ const Page = () => {
 
                 <Section delay={0.7}>
                     <Heading as='h3' variant='section-title'>
-                        Experience
+                      Professional Experience
                     </Heading>
 
 
@@ -227,6 +227,7 @@ const Page = () => {
 
                 </Section>
 
+            {/* <Footer/> */}
             </Container>
         </Layout>
     );
