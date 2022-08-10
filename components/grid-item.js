@@ -51,10 +51,11 @@ export const CertificateGridItem = ({ children, id, title, thumbnail }) => (
                 <Image src={thumbnail}
                     alt={"title"}
                     className={"grid-item-thumbnail"}
-                // placeholder="blur"
+                    placeholder="blur"
+                    loading="lazy"
                 />
                 <LinkOverlay href={`/certificates/${id}`}>
-                    <Text mt={2} fontSize={20}>
+                    <Text mt={2} fontSize={15}>
                         {title}
                     </Text>
                 </LinkOverlay>

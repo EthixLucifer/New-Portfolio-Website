@@ -18,6 +18,7 @@ const LinkItem = ({ href, path, children }) => {
                 color={active ? '#202023' : inactiveColor}
                 borderRadius={inactiveColor ? 0 : 0}
                 outlineColor={active ? "blue.200": undefined}
+                textUnderlineOffset={active ? -500 : -500}
             >
                 {children}
             </Link>

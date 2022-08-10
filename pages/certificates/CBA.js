@@ -10,31 +10,34 @@ const Project = () => {
         <Layout title={certificateName} >
             <Container>
                 <Title>
-                    Ethical Hacking Training <Badge>2020</Badge>
+                    Ethical Hacking Training <Badge>2022</Badge>
                 </Title>
-                <ProjectImage mt={55} src="/images/certificatedir/Ethicalhacking.jpg" alt="ethicalHackingCertificate" />
+                <ProjectImage mt={55} src="/images/certificatedir/CBA.jpg" alt="ethicalHackingCertificate" />
 
                 <P>
-                    This Ethical Training helped me in performing better vulnerability analysis, and professional documentation of the found bugs
+                    This blockchain architect course, helped me immensly in understanding the architecture of blockchain network.
+
+
                 </P>
 
                 <P>
-                    Also, through this training i learned to make better use of tools like Burp, hydra and wireshark.
+                    This course helped me in taking better decesions for selecting the right blockchain platform according to the business or client needs.
                 </P>
 
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Verify Certificate</Meta>
-                        <Link href="https://trainings.internshala.com/view_certificate/30F3F83F-1B1B-865B-00A3-2D00026FDBEA/BE225C4B-F863-5C0B-B05B-A6BC2F3A3B2B/" target="_blank">
-                            Internshala Trainings <ExternalLinkIcon mx="2px" />
+                        <Link href="https://www.credential.net/f5a06bbd-b1e1-45e5-9d9a-697d1d175d8c" target="_blank">
+                            Blockchain Council <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem mt={5}>
                         <Meta>Skills Learned</Meta>
                         <P>
-                           VAPT Documentation, XSS & CXSS, Phishing, Networking 
+                            Blockchain Architecture, Blockchain Node Development, Cryptography Protocols (Symmetric & Assymetric) 
                         </P>
                     </ListItem>
+
 
                 </List>
 
