@@ -33,6 +33,10 @@ const Project = () => {
                     </ListItem>
 
                     <ListItem>
+                        <Meta>Github Repo </Meta>
+                        <span>Sorry! Private Repository😅</span>
+                    </ListItem>
+                    <ListItem>
                         <Meta>Tech Stack</Meta>
                         <span>React, Google Firebase, CSS</span>
                     </ListItem>

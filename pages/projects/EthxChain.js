@@ -26,6 +26,12 @@ const Project = () => {
                             EthxChain <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Github Repo</Meta>
+                        <Link href="https://github.com/EthixLucifer/EthxChain" target="_blank">
+                            EthxChain.Github<ExternalLinkIcon mx="2px" />
+                        </Link>
+                    </ListItem>
 
                     <ListItem>
                         <Meta>Tech Stack</Meta>
