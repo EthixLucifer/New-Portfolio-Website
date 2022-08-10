@@ -12,7 +12,7 @@ export const GridItem = ({ children, href, title, thumbnail, }) => (
                 src={thumbnail}
                 alt={title}
                 className={"grid-item-thumbnail"}
-                // placeholder="blur"
+                placeholder="blur"
                 loading="lazy"
             />
             <LinkOverlay href={href} target="_blank">
@@ -31,7 +31,7 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
             <LinkBox cursor="pointer" >
                 <Image src={thumbnail}
                     alt={"title"}
-                    className={"grid-item-thumbnail"}
+                    // className={"grid-item-thumbnail"}
                 // placeholder="blur"
                 />
                 <LinkOverlay href={`/projects/${id}`}>
@@ -50,7 +50,7 @@ export const CertificateGridItem = ({ children, id, title, thumbnail }) => (
             <LinkBox cursor="pointer" >
                 <Image src={thumbnail}
                     alt={"title"}
-                    className={"grid-item-thumbnail"}
+                    // className={"grid-item-thumbnail"}
                     placeholder="blur"
                     loading="lazy"
                 />
