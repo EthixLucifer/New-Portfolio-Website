@@ -17,7 +17,7 @@ const LinkItem = ({ href, path, children }) => {
                 alignItems="center"
                 color={active ? '#202023' : inactiveColor}
                 borderRadius={inactiveColor ? 0 : 0}
-                outlineColor={active ? "blue.200": undefined}
+                outlineColor={active ? "blue.200" : undefined}
                 textUnderlineOffset={active ? -500 : -500}
             >
                 {children}
@@ -61,8 +61,8 @@ const Navbar = props => {
                     <LinkItem href="/projects" path={path} >
                         Projects
                     </LinkItem>
-                    <LinkItem href="/certificates" path={path} >
-                        Certificates
+                    <LinkItem href="/training" path={path} >
+                        Trainings
                     </LinkItem>
 
                     {/* <LinkItem href="/articles" path={path} >
@@ -94,9 +94,9 @@ const Navbar = props => {
                                         Projects
                                     </MenuItem>
                                 </NextLink>
-                                <NextLink href="/certificates" passHref>
+                                <NextLink href="/training" passHref>
                                     <MenuItem as={Link}>
-                                        Certificates
+                                        Trainings
                                     </MenuItem>
                                 </NextLink>
                                 {/* <NextLink href="/articles" passHref>
