@@ -42,7 +42,7 @@ const Page = () => {
                         About Me
                     </Heading>
                     <Paragraph>
-                        I am a Blockchain Developer and a CyberSecurity Geek. I have a passion for Blockchain and I am currently working on a project to create a decentralized application that will help people to share their thoughts and ideas.
+                        I am a Blockchain Developer and a CyberSecurity Geek. I have a passion for Blockchain and I am currently working on a project to create a decentralized application that will help people to share their art and creativity.
                         {/* <NextLink href='projects/name'>
                         <Link> EthxChain</Link>
                     </NextLink> */}
@@ -117,10 +117,10 @@ const Page = () => {
                     </ExperienceContainer>
                     <ExperienceContainer>
 
-                        <ExperienceYear>04/2022 - Present</ExperienceYear>
+                        <ExperienceYear>04/2022 - 07/2022</ExperienceYear>
 
                         <CompanyName>
-                            <Link href='https://www.toshinnovations.com/' target='_blank'>  Tosh Innovations </Link>
+                            <Link href='https://www.toshinnovations.com/' target='_blank'>  Blockchain Council </Link>
                         </CompanyName>
 
                         <PositionName>
