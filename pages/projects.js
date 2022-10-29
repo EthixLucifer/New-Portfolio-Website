@@ -3,6 +3,7 @@ import Section from '../components/section';
 import { ProjectGridItem } from '../components/grid-item';
 import thumbEthxChain from "../public/images/thumbEthxChain.PNG";
 import firstportfolio_1 from "../public/images/firstportfolio_1.PNG";
+import thumbImagicArt from "../public/images/thumbImagicArt.png";
 import Layout from '../components/layout/article';
 
 const Projects = () => {
@@ -15,6 +16,12 @@ const Projects = () => {
             </Heading>
             <SimpleGrid columns={[1]} gap={6}>
             {/* <SimpleGrid columns={[1,1,2]} gap={6}> */}
+                <Section>
+                    <ProjectGridItem id="ImagicArt" title="Imagic Art"
+                    thumbnail={thumbImagicArt}>
+                        A Multichain NFT Marketplace that features `BSC, Goerli, and PolyGon Mumbai` Testnets
+                    </ProjectGridItem>
+                </Section>
                 <Section>
                     <ProjectGridItem id="EthxChain" title="EthxChain"
                     thumbnail={thumbEthxChain}>
