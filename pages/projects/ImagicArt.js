@@ -13,7 +13,7 @@ const Project = () => {
                     Imagic Art <Badge>2022</Badge>
                 </Title>
                 <P>
-                    Ethxchain is a NFT minting and sharing platform that allows users to mint and sell NFT's across BSC Testnet, Polygon Mumbai and Goerli Testnet. When visiting the platform for the first time, ensure to connect your metamask wallet.
+                    Ethxchain is a NFT minting and sharing platform that allows users to mint and sell NFTs across BSC Testnet, Polygon Mumbai and Goerli Testnet. When visiting the platform for the first time, ensure to connect your metamask wallet.
 
                 </P>
                 <P>
@@ -28,12 +28,12 @@ const Project = () => {
                 <ProjectImage mt={55} src="/images/ImagicArt.png" alt="ImagicArt" />
 
                 <P>
-                    Else, if you want to mint an NFT; head to the MINT NFT section, fill up the form details and select the network for your NFT from dropdown button, if you wanna save nft for yourself click on the MINT NFT or else if you wanna list NFT for sale, then click on the LIST NFT button. Take note that you'll be charged 0.001 token as listing fees when listing NFT on the marketplace.
+                    Else, if you want to mint an NFT; head to the MINT NFT section, fill up the form details and select the network for your NFT from dropdown button, if you wanna save nft for yourself click on the MINT NFT or else if you wanna list NFT for sale, then click on the LIST NFT button. Take note that you will be charged 0.001 token as listing fees when listing NFT on the marketplace.
                 </P>
                 <ProjectImage mt={55} src="/images/MintNft.png" alt="ImagicArt_2" />
 
                 <P>
-                    To view you bought and minted NFT's head to the MY NFT section, select the network you wanna view your NFT's from and wait; if your minted NFT's and they're still not showing, then try clicking on the refresh NFT button; this may most likely happen as IPFS is very slow.
+                    To view you bought and minted NFT's head to the MY NFT section, select the network you wanna view your NFTs from and wait for NFT to show; if you have minted NFTs and they are still not showing, then try clicking on the refresh NFT button; this may most likely happen as IPFS is very slow.
                 </P>
                 <ProjectImage mt={55} src="/images/MyNft.png" alt="ImagicArt_3" />
 
