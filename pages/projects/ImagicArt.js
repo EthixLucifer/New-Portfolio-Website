@@ -30,12 +30,12 @@ const Project = () => {
                 <P>
                     Else, if you want to mint an NFT; head to the MINT NFT section, fill up the form details and select the network for your NFT from dropdown button, if you wanna save nft for yourself click on the MINT NFT or else if you wanna list NFT for sale, then click on the LIST NFT button. Take note that you will be charged 0.001 token as listing fees when listing NFT on the marketplace.
                 </P>
-                <ProjectImage mt={55} src="/images/MintNft.png" alt="ImagicArt_2" />
+                <ProjectImage mt={55} src="/images/MintNft.PNG" alt="ImagicArt_2" />
 
                 <P>
                     To view you bought and minted NFTs head to the MY NFT section, select the network you wanna view your NFTs from and wait for NFT to show; if you have minted NFTs and they are still not showing, then try clicking on the refresh NFT button; this may most likely happen as IPFS is very slow.
                 </P>
-                <ProjectImage mt={55} src="/images/MyNft.png" alt="ImagicArt_3" />
+                <ProjectImage mt={55} src="/images/MyNft.PNG" alt="ImagicArt_3" />
 
                 <List ml={4} my={4}>
                     <ListItem>
