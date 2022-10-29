@@ -3,7 +3,7 @@ import Section from '../components/section';
 import { ProjectGridItem } from '../components/grid-item';
 import thumbEthxChain from "../public/images/thumbEthxChain.PNG";
 import firstportfolio_1 from "../public/images/firstportfolio_1.PNG";
-import thumbImagicArt from "../public/images/thumbImagicArt.png";
+import thumbImagicArt from "../public/images/thumbImagicArt.PNG";
 import Layout from '../components/layout/article';
 
 const Projects = () => {
