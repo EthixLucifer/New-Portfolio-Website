@@ -33,7 +33,7 @@ const Project = () => {
                 <ProjectImage mt={55} src="/images/MintNft.png" alt="ImagicArt_2" />
 
                 <P>
-                    To view you bought and minted NFT's head to the MY NFT section, select the network you wanna view your NFTs from and wait for NFT to show; if you have minted NFTs and they are still not showing, then try clicking on the refresh NFT button; this may most likely happen as IPFS is very slow.
+                    To view you bought and minted NFTs head to the MY NFT section, select the network you wanna view your NFTs from and wait for NFT to show; if you have minted NFTs and they are still not showing, then try clicking on the refresh NFT button; this may most likely happen as IPFS is very slow.
                 </P>
                 <ProjectImage mt={55} src="/images/MyNft.png" alt="ImagicArt_3" />
 
