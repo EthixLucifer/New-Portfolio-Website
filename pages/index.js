@@ -128,6 +128,32 @@ const Page = () => {
                         </PositionName>
 
                     </ExperienceContainer>
+                    <ExperienceContainer>
+
+                        <ExperienceYear> 11/2022 - 02/2023</ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='https://www.privacypapa.com/author/rohitjambhulkar/' target='_blank'>  Teknologya </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Technical Content Writer Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
+                    <ExperienceContainer>
+
+                        <ExperienceYear>12/2022 - Present </ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='http://www.intellaeducation.com/' target='_blank'>  Intella Education </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Blockchain Content Curator Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
 
                 </Section>
 
@@ -179,7 +205,7 @@ const Page = () => {
 
                         <List mt={5}>
                             <ListItem>
-                                <Link href="https://www.github.com/in/ethixlucifer" target="_blank">
+                                <Link href="https://www.github.com/ethixlucifer" target="_blank">
 
                                     <Button variant="ghost" colorScheme="red"
                                         leftIcon={<Icon as={IoLogoGithub}
