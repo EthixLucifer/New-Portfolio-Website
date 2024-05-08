@@ -9,13 +9,13 @@ import { GridItem } from "../components/grid-item"
 const Articles = () => {
     <Layout title="Articles" >
 
-           
+
         <Container >
-           
+
             <Heading as="h3" fontSize="20" mb={"31"}>
-            Latest Articles
+                Latest Articles
             </Heading>
-          
+
         </Container>
     </Layout>
 }

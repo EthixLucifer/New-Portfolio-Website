@@ -42,7 +42,7 @@ const Page = () => {
                         About Me
                     </Heading>
                     <Paragraph>
-                        I am a Blockchain Developer and a CyberSecurity Geek. I have a passion for Blockchain and I am currently working on a project to create a decentralized application that will help people to share their art and creativity.
+                        I am a Blockchain Development entusiast and a CyberSecurity Geek. I continously aim to keep myself updated with latest advancements in the world of Blockchain.
                         {/* <NextLink href='projects/name'>
                         <Link> EthxChain</Link>
                     </NextLink> */}
@@ -76,18 +76,82 @@ const Page = () => {
                     <BioContainer>
                         <BioYear>2018-2022</BioYear>
                         <BioSection>
-                            Finished Diploma in Information Technology from &quot;Government Polytechnic Gondia&quot;
+                            Finished Diploma in Information Technology from &quot;Government Polytechnic, Gondia&quot;
                         </BioSection>
                     </BioContainer>
-
+                    <BioContainer>
+                        <BioYear>2023-2025</BioYear>
+                        <BioSection>
+                            Finished B-Tech in Information Technology from &quot;Vishwakarma Institute of Information Technology, Pune&quot;
+                        </BioSection>
+                    </BioContainer>
 
                 </Section>
                 {/* Experience Section */}
 
                 <Section delay={0.7}>
                     <Heading as='h3' variant='section-title'>
-                      Professional Experience
+                        Professional Experience
                     </Heading>
+
+                    {/* Master's Union */}
+                    <ExperienceContainer>
+
+                        <ExperienceYear>12/2022 - Present </ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='http://www.intellaeducation.com/' target='_blank'>  Intella Education </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Blockchain Content Curator Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
+                    {/* Teknologya  */}
+                    <ExperienceContainer>
+
+                        <ExperienceYear> 11/2022 - 02/2023</ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='https://www.privacypapa.com/author/rohitjambhulkar/' target='_blank'>  Teknologya </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Technical Content Writer Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
+
+                    {/* Blockchain Council */}
+                    <ExperienceContainer>
+
+                        <ExperienceYear>04/2022 - 07/2022</ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='https://www.toshinnovations.com/' target='_blank'>  Blockchain Council </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Blockchain Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
+
+                    {/* Binary Semantics */}
+                    <ExperienceContainer>
+
+                        <ExperienceYear>11/2021 - 03/2022</ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics Pvt Ltd</Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Technical Content Writer Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
 
 
                     <ExperienceContainer>
@@ -102,58 +166,10 @@ const Page = () => {
                         </PositionName>
 
                     </ExperienceContainer>
-                    <ExperienceContainer>
 
-                        <ExperienceYear>11/2021 - 03/2022</ExperienceYear>
 
-                        <CompanyName>
-                            <Link href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics Pvt Ltd</Link>
-                        </CompanyName>
 
-                        <PositionName>
-                            Technical Content Writer Intern
-                        </PositionName>
 
-                    </ExperienceContainer>
-                    <ExperienceContainer>
-
-                        <ExperienceYear>04/2022 - 07/2022</ExperienceYear>
-
-                        <CompanyName>
-                            <Link href='https://www.toshinnovations.com/' target='_blank'>  Blockchain Council </Link>
-                        </CompanyName>
-
-                        <PositionName>
-                            Blockchain Intern
-                        </PositionName>
-
-                    </ExperienceContainer>
-                    <ExperienceContainer>
-
-                        <ExperienceYear> 11/2022 - 02/2023</ExperienceYear>
-
-                        <CompanyName>
-                            <Link href='https://www.privacypapa.com/author/rohitjambhulkar/' target='_blank'>  Teknologya </Link>
-                        </CompanyName>
-
-                        <PositionName>
-                            Technical Content Writer Intern
-                        </PositionName>
-
-                    </ExperienceContainer>
-                    <ExperienceContainer>
-
-                        <ExperienceYear>12/2022 - Present </ExperienceYear>
-
-                        <CompanyName>
-                            <Link href='http://www.intellaeducation.com/' target='_blank'>  Intella Education </Link>
-                        </CompanyName>
-
-                        <PositionName>
-                            Blockchain Content Curator Intern
-                        </PositionName>
-
-                    </ExperienceContainer>
 
                 </Section>
 
@@ -253,7 +269,7 @@ const Page = () => {
 
                 </Section>
 
-            {/* <Footer/> */}
+                {/* <Footer/> */}
             </Container>
         </Layout>
     );
