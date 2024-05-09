@@ -31,7 +31,7 @@ const Page = () => {
                         </Heading>
                         <p
                         // fontFamily="Cormorant SC" fontWeight={"bold"} fontSize={"110%"}
-                        > Blockchain Developer, Security Enthusiast, Technical Content Creator</p>
+                        > Blockchain Developer &apos; Security Enthusiast &apos; Technical Content Creator</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align='center' >
                         <Image borderColor="whiteAlpha.900" borderWidth={3} borderStyle='solid' maxWidth="150px" display="inline-block" borderRadius='full' src="/images/profile-pic (1).png" alt="Ethix Jambhulkar profile Image" />
@@ -113,7 +113,7 @@ const Page = () => {
                         <ExperienceYear>12/2022 - 01/2023 </ExperienceYear>
 
                         <CompanyName>
-                            <Link href='https://mastersunion.org/mastercamps/pro-blockchain-developer-mastercamp' target='_blank'>  Intella Education (Master's Union) </Link>
+                            <Link href='https://mastersunion.org/mastercamps/pro-blockchain-developer-mastercamp' target='_blank'>  Intella Education (Master &apos;s Union) </Link>
                         </CompanyName>
 
                         <PositionName>
