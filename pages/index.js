@@ -20,7 +20,7 @@ const Page = () => {
 
                 {/* {*pl={20}*} padding to the left side of the name */}
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.700', 'purple.900')} p={3} align="center" mt={20} mb={8} fontFamily="Cormorant SC">
-                    Certified Blockchain & NFT Developer and A CyberSecurity Geek
+                    Blockchain Developer and a CyberSecurity Geek
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
@@ -31,7 +31,7 @@ const Page = () => {
                         </Heading>
                         <p
                         // fontFamily="Cormorant SC" fontWeight={"bold"} fontSize={"110%"}
-                        > Pen Tester, Smart Contract Developer, Tech Content Creator</p>
+                        > Blockchain Developer, Security Enthusiast, Technical Content Creator</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align='center' >
                         <Image borderColor="whiteAlpha.900" borderWidth={3} borderStyle='solid' maxWidth="150px" display="inline-block" borderRadius='full' src="/images/profile-pic (1).png" alt="Ethix Jambhulkar profile Image" />
@@ -93,14 +93,27 @@ const Page = () => {
                     <Heading as='h3' variant='section-title'>
                         Professional Experience
                     </Heading>
+                    {/* Binary Semantics */}
+                    <ExperienceContainer>
 
+                        <ExperienceYear>06/2023 - 04/2023 </ExperienceYear>
+
+                        <CompanyName>
+                            <Link href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics </Link>
+                        </CompanyName>
+
+                        <PositionName>
+                            Technical Content Writer Intern
+                        </PositionName>
+
+                    </ExperienceContainer>
                     {/* Master's Union */}
                     <ExperienceContainer>
 
-                        <ExperienceYear>12/2022 - Present </ExperienceYear>
+                        <ExperienceYear>12/2022 - 01/2023 </ExperienceYear>
 
                         <CompanyName>
-                            <Link href='http://www.intellaeducation.com/' target='_blank'>  Intella Education </Link>
+                            <Link href='https://mastersunion.org/mastercamps/pro-blockchain-developer-mastercamp' target='_blank'>  Intella Education (Master's Union) </Link>
                         </CompanyName>
 
                         <PositionName>
@@ -129,7 +142,7 @@ const Page = () => {
                         <ExperienceYear>04/2022 - 07/2022</ExperienceYear>
 
                         <CompanyName>
-                            <Link href='https://www.toshinnovations.com/' target='_blank'>  Blockchain Council </Link>
+                            <Link href='https://www.blockchain-council.org/' target='_blank'>  Blockchain Council </Link>
                         </CompanyName>
 
                         <PositionName>
