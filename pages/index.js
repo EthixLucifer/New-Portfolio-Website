@@ -96,7 +96,7 @@ const Page = () => {
                     {/* Binary Semantics */}
                     <ExperienceContainer>
 
-                        <ExperienceYear>06/2023 - 04/2023 </ExperienceYear>
+                        <ExperienceYear>06/2023 - 04/2024 </ExperienceYear>
 
                         <CompanyName>
                             <Link href='https://www.binarysemantics.com/' target='_blank'>  Binary Semantics </Link>
