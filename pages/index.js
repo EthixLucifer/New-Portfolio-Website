@@ -34,7 +34,7 @@ const Page = () => {
                         > Blockchain Developer &apos; Security Enthusiast &apos; Technical Content Creator</p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} align='center' >
-                        <Image borderColor="whiteAlpha.900" borderWidth={3} borderStyle='solid' maxWidth="150px" display="inline-block" borderRadius='full' src="/images/profile-pic (1).png" alt="Ethix Jambhulkar profile Image" />
+                        <Image borderColor="whiteAlpha.900" borderWidth={2} borderStyle='solid' maxWidth="150px" display="inline-block" borderRadius='full' src="/images/profile-1.jpg" alt="Ethix Jambhulkar profile Image" />
                     </Box>
                 </Box>
                 <Section delay={0.1}>
